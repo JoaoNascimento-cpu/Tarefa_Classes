@@ -1,11 +1,12 @@
 package modulo7;
 
 public class Motorista {
-	int id;
-	
-	String Nome;
-	
-	String Endereco;
+	int id = 1;
+
+	String Nome = "João Pedro Nascimento";
+
+	String Endereco = "Rua Taijipuru 860.";
+
 
 	public int getId() {
 		return id;
@@ -30,8 +31,8 @@ public class Motorista {
 	public void setEndereco(String endereco) {
 		Endereco = endereco;
 	}
-	
-	
-	
-	
+
+
+
+
 }
